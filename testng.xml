@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <test name="Test">
+        <parameter name="email" value="ruan.keyu@gmail.com" />
+        <parameter name="password" value="k20260150" />
+        <parameter name="homePage" value="https://podio.com/login" />
+        <parameter name="driverPath" value="C:/xunlei/Project/testng/Driver/chromedriver.exe" />
+        <classes>
+            <class name="com.keyu.testng.HomePageTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

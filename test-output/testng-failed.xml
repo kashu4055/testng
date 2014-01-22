@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="Driver" value="not-found"/>
+  <parameter name="email" value="ruan.keyu@gmail.com"/>
+  <parameter name="password" value="k20260150"/>
+  <parameter name="homePage" value="https://podio.com/login"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.keyu.testng.HomePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- com.keyu.testng.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
